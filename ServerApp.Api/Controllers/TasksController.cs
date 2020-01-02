@@ -1,9 +1,10 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
-
 using Microsoft.AspNetCore.Mvc;
-
 using ServerApp.Api.Models;
+using ServerApp.Api.Records;
+using StructureMap;
 
 namespace ServerApp.Api.Controllers
 {
@@ -12,34 +13,42 @@ namespace ServerApp.Api.Controllers
     [ApiController]
     public class TasksController : ControllerBase
     {
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<TaskModel>>> GetTasks()
+        private readonly ITaskRepository _taskRepository;
+
+        public TasksController(ITaskRepository _taskRepository)
         {
-            return await Task.FromResult(new List<TaskModel>());
+            this._taskRepository = _taskRepository;
+        }
+
+        [HttpGet]
+        public async Task<IEnumerable<TaskModel>> GetTasks()
+        {
+            return (await _taskRepository.QueryAsync())
+                .Select(TaskModel.FromRecord);
         }
 
         [HttpGet("(id)")]
-        public async Task<ActionResult<TaskModel>> GetTask(int id)
+        public async Task<TaskModel> GetTask(int id)
         {
-            return await Task.FromResult<TaskModel>(null);
+            return TaskModel.FromRecord(await _taskRepository.GetAsync(id));
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutTask(int id, TaskModel task)
+        public async Task PutTask(int id, TaskModel task)
         {
-            return await Task.FromResult<IActionResult>(null);
+            await _taskRepository.CreateAsync(task.ToRecord());
         }
 
         [HttpPost]
-        public async Task<ActionResult<TaskModel>> PostTask(TaskModel task)
+        public async Task<TaskModel> PostTask(TaskModel task)
         {
-            return await Task.FromResult(task);
+            return TaskModel.FromRecord(await _taskRepository.UpdateAsync(task.ToRecord()));
         }
 
         [HttpDelete("(id)")]
-        public async Task<ActionResult<TaskModel>> DeleteTask(int id)
+        public async Task<TaskModel> DeleteTask(int id)
         {
-            return await Task.FromResult<TaskModel>(null);
+            return TaskModel.FromRecord(await _taskRepository.DeleteAsync(id));
         }
     }
 }
