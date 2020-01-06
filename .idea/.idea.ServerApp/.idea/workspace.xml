@@ -2,52 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="721a367b-2455-4240-9ad6-f65d598318b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ServerApp.dir/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ServerApp.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ServerApp.dir/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ServerApp.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ServerApp.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ServerApp/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ServerApp/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ServerApp/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ServerApp/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ServerApp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ServerApp/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServerApp.Common/IDependency.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServerApp.Infrastructure/Records/BaseRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerApp.Api/Controllers/TasksController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp.Api/Controllers/TasksController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerApp.Api/Models/TaskModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp.Api/Models/TaskModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerApp.Api.Tests/Records/TaskRepositoryTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerApp.Infrastructure.Tests/Records/BaseRepositoryTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerApp.Infrastructure/Persistence/NormalizedDateTimeUserType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ServerApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ServerApp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ServerApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ServerApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ServerApp/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ServerApp/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerApp.Api/Records/TaskRecord.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp.Api/Records/TaskRecord.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServerApp.Api/ServerApp.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp.Api/ServerApp.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerApp.Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp.Api/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerApp.Common/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerApp.Infrastructure/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerApp.Infrastructure/Persistence/SessionFactoryBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp.Infrastructure/Persistence/SessionFactoryBuilder.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServerApp.Infrastructure/ServerApp.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp.Infrastructure/ServerApp.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerApp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ServerApp.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ServerApp.Infrastructure.Tests/Records/BaseRepositoryTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/127E718A-C42E-4542-A71B-54CEC3EF156B/7/WebHostExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F9983402-2CF8-45EF-8679-CD8D8CA3CF26/b6/d22de446/TaskAwaiter.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ServerApp.Api/Models/TaskModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ServerApp.Api/Records/TaskRecord.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ServerApp.Api/Properties/DiRegistry.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ServerApp.Api/Controllers/TasksController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServerApp.Api.Tests/Records/TaskRepositoryTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/127E718A-C42E-4542-A71B-54CEC3EF156B/5/WebHostBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6BCDFAAE-EEF5-425B-99B4-BFDE66161A46/17/EntityFrameworkQueryableExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ServerApp.Common/IDependency.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ServerApp.Api/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C6365ABE-23F0-430D-8EFD-AFB7331F16D9/08/20b15af3/ISessionFactory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ServerApp.Infrastructure/Records/BaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0680C63-F115-40D0-B59B-D30F7313319C/62/1c4e7d57/FluentMappingsContainer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C6365ABE-23F0-430D-8EFD-AFB7331F16D9/d8/e693a26a/SchemaExport.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C99531EE-3126-4475-8936-BCB12055247E/56/70711ba8/DbConnection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0680C63-F115-40D0-B59B-D30F7313319C/93/1b9ee8dd/FluentConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0680C63-F115-40D0-B59B-D30F7313319C/29/f9b8896c/PersistenceSpecification`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0680C63-F115-40D0-B59B-D30F7313319C/be/defb7063/MappingConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B685D02A-5330-4337-A2F3-6A6CFAB13B30/a3/358e2b58/Expression.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B685D02A-5330-4337-A2F3-6A6CFAB13B30/61/3674dfad/ParameterExpression.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F9983402-2CF8-45EF-8679-CD8D8CA3CF26/24/f321d537/RuntimeType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F9983402-2CF8-45EF-8679-CD8D8CA3CF26/fe/d4dade24/MethodBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4FA45975-38D1-4E5C-9DF0-B7ECF52D95BC/f2/8d6d8c06/SessionFactoryImpl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B685D02A-5330-4337-A2F3-6A6CFAB13B30/cc/8a6a2e9f/CollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServerApp.Api/obj/Debug/netcoreapp2.2/ServerApp.Api.RazorAssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0680C63-F115-40D0-B59B-D30F7313319C/cf/3b772439/PersistenceSpecificationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServerApp.Api/Models/TaskModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServerApp.Api/Records/TaskRecord.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F9983402-2CF8-45EF-8679-CD8D8CA3CF26/62/2bf1e337/Activator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServerApp.Api/Properties/DiRegistry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServerApp.Api/Controllers/TasksController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0680C63-F115-40D0-B59B-D30F7313319C/e4/1878d4cf/Property`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18D5A60D-361A-4AFD-A431-F772FA87FCC3/5c/ae7dd8eb/ReflectionAbstractionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0680C63-F115-40D0-B59B-D30F7313319C/14/e82e161f/Extensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18D5A60D-361A-4AFD-A431-F772FA87FCC3/f3/4afc68e2/ExecutionTimer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServerApp.Api/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServerApp.Common/obj/Debug/netstandard2.0/ServerApp.Common.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ServerApp.Api/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ServerApp.Infrastructure/Records/IRecord.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/18D5A60D-361A-4AFD-A431-F772FA87FCC3/82/4204aace/TestInvoker`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ServerApp.Api/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServerApp.Infrastructure/Persistence/SessionFactoryBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ServerApp.Api/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServerApp.Infrastructure/obj/Debug/netstandard2.0/ServerApp.Infrastructure.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DB47E014-3FC8-4135-95A0-B9F0E0F67B83/52/0965a357/ExpressionBasedAutomappingConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DB47E014-3FC8-4135-95A0-B9F0E0F67B83/89/78f0cbe5/IdentityStep.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4FA45975-38D1-4E5C-9DF0-B7ECF52D95BC/05/ea80f8e0/ISession.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DB47E014-3FC8-4135-95A0-B9F0E0F67B83/5f/a5d8f36c/DefaultAutomappingConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServerApp.Infrastructure/Persistence/NormalizedDateTimeUserType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4FA45975-38D1-4E5C-9DF0-B7ECF52D95BC/d3/5e06a57c/NullableType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServerApp.Common/IDependency.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F9983402-2CF8-45EF-8679-CD8D8CA3CF26/7d/ad1f9e98/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -55,13 +91,20 @@
       <list>
         <option value="$PROJECT_DIR$/ServerApp.Common/Class1.cs" />
         <option value="$PROJECT_DIR$/ServerApp.Common/IDependency.cs" />
-        <option value="$PROJECT_DIR$/ServerApp.Api/Startup.cs" />
         <option value="$PROJECT_DIR$/ServerApp.Api/Properties/DiRegistry.cs" />
         <option value="$PROJECT_DIR$/ServerApp.Infrastructure/Records/IRecord.cs" />
         <option value="$PROJECT_DIR$/ServerApp.Api/Models/TaskModel.cs" />
-        <option value="$PROJECT_DIR$/ServerApp.Api/Records/TaskRecord.cs" />
         <option value="$PROJECT_DIR$/ServerApp.Infrastructure/Records/BaseRepository.cs" />
         <option value="$PROJECT_DIR$/ServerApp.Api/Controllers/TasksController.cs" />
+        <option value="$PROJECT_DIR$/ServerApp.Infrastructure.Tests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/ServerApp.Infrastructure.Tests/Records/InMemorySessionFactoryProvider.cs" />
+        <option value="$PROJECT_DIR$/ServerApp.Api/Records/TaskRecord.cs" />
+        <option value="$PROJECT_DIR$/ServerApp.Api/Startup.cs" />
+        <option value="$PROJECT_DIR$/ServerApp.Infrastructure/Persistence/NormalizedDateTimeUserType.cs" />
+        <option value="$PROJECT_DIR$/ServerApp.Api.Tests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/ServerApp.Api.Tests/Records/TaskRepositoryTests.cs" />
+        <option value="$PROJECT_DIR$/ServerApp.Infrastructure.Tests/Records/BaseRepositoryTests.cs" />
+        <option value="$PROJECT_DIR$/ServerApp.Infrastructure/Persistence/SessionFactoryBuilder.cs" />
       </list>
     </option>
   </component>
@@ -80,7 +123,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ServerApp.Api/ServerApp.Api.csproj" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.ServerApp.Api">
     <configuration name="ServerApp.Api" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -137,8 +180,16 @@
       <option name="presentableId" value="Default" />
       <updated>1577975307361</updated>
       <workItem from="1577975310163" duration="69000" />
-      <workItem from="1577975419269" duration="5679000" />
+      <workItem from="1577975419269" duration="6278000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Rider support and configured InMemory SQLite and StructureMap">
+      <created>1577981653768</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577981653768</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +210,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Rider support and configured InMemory SQLite and StructureMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Rider support and configured InMemory SQLite and StructureMap" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="237" y="216" key="#Web_Browsers" timestamp="1577976241884">
       <screen x="0" y="30" width="2560" height="1050" />
@@ -168,108 +223,243 @@
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
     <state x="101" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.2560.1050@0.30.2560.1050" timestamp="1577976246445" />
-    <state width="415" height="466" key="DebuggerActiveHint" timestamp="1577978714693">
+    <state x="1489" y="233" key="#xdebugger.evaluate" timestamp="1578171781059">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="415" height="466" key="DebuggerActiveHint/0.30.2560.1050@0.30.2560.1050" timestamp="1577978714693" />
-    <state x="1064" y="311" width="432" height="487" key="FileChooserDialogImpl" timestamp="1577975448271">
+    <state x="1489" y="233" key="#xdebugger.evaluate/0.30.2560.1050@0.30.2560.1050" timestamp="1578171781059" />
+    <state width="671" height="466" key="DebuggerActiveHint" timestamp="1578301722958">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state x="1064" y="311" width="432" height="487" key="FileChooserDialogImpl/0.30.2560.1050@0.30.2560.1050" timestamp="1577975448271" />
-    <state width="1230" height="284" key="GridCell.Tab.0.bottom" timestamp="1577981155777">
+    <state width="671" height="466" key="DebuggerActiveHint/0.30.2560.1050@0.30.2560.1050" timestamp="1578301722958" />
+    <state x="1064" y="311" width="432" height="487" key="FileChooserDialogImpl" timestamp="1578300601283">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.0.bottom/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155777" />
-    <state width="1230" height="284" key="GridCell.Tab.0.center" timestamp="1577981155776">
+    <state x="1064" y="311" width="432" height="487" key="FileChooserDialogImpl/0.30.2560.1050@0.30.2560.1050" timestamp="1578300601283" />
+    <state width="1224" height="284" key="GridCell.Tab.0.bottom" timestamp="1578301897811">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.0.center/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155776" />
-    <state width="1230" height="284" key="GridCell.Tab.0.left" timestamp="1577981155776">
+    <state width="1228" height="284" key="GridCell.Tab.0.bottom/0.26.1366.742@0.26.1366.742" timestamp="1578069448915" />
+    <state width="1224" height="284" key="GridCell.Tab.0.bottom/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897811" />
+    <state width="1224" height="284" key="GridCell.Tab.0.center" timestamp="1578301897810">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.0.left/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155776" />
-    <state width="1230" height="284" key="GridCell.Tab.0.right" timestamp="1577981155777">
+    <state width="1228" height="284" key="GridCell.Tab.0.center/0.26.1366.742@0.26.1366.742" timestamp="1578069448914" />
+    <state width="1224" height="284" key="GridCell.Tab.0.center/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897810" />
+    <state width="1224" height="284" key="GridCell.Tab.0.left" timestamp="1578301897810">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.0.right/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155777" />
-    <state width="1230" height="284" key="GridCell.Tab.1.bottom" timestamp="1577981155470">
+    <state width="1228" height="284" key="GridCell.Tab.0.left/0.26.1366.742@0.26.1366.742" timestamp="1578069448914" />
+    <state width="1224" height="284" key="GridCell.Tab.0.left/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897810" />
+    <state width="1224" height="284" key="GridCell.Tab.0.right" timestamp="1578301897811">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.1.bottom/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155470" />
-    <state width="1230" height="284" key="GridCell.Tab.1.center" timestamp="1577981155469">
+    <state width="1228" height="284" key="GridCell.Tab.0.right/0.26.1366.742@0.26.1366.742" timestamp="1578069448915" />
+    <state width="1224" height="284" key="GridCell.Tab.0.right/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897811" />
+    <state width="1224" height="284" key="GridCell.Tab.1.bottom" timestamp="1578301897813">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.1.center/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155469" />
-    <state width="1230" height="284" key="GridCell.Tab.1.left" timestamp="1577981155469">
+    <state width="1228" height="284" key="GridCell.Tab.1.bottom/0.26.1366.742@0.26.1366.742" timestamp="1578069448917" />
+    <state width="1224" height="284" key="GridCell.Tab.1.bottom/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897813" />
+    <state width="1224" height="284" key="GridCell.Tab.1.center" timestamp="1578301897812">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.1.left/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155469" />
-    <state width="1230" height="284" key="GridCell.Tab.1.right" timestamp="1577981155470">
+    <state width="1228" height="284" key="GridCell.Tab.1.center/0.26.1366.742@0.26.1366.742" timestamp="1578069448916" />
+    <state width="1224" height="284" key="GridCell.Tab.1.center/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897812" />
+    <state width="1224" height="284" key="GridCell.Tab.1.left" timestamp="1578301897811">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.1.right/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155470" />
-    <state width="1230" height="284" key="GridCell.Tab.2.bottom" timestamp="1577981155483">
+    <state width="1228" height="284" key="GridCell.Tab.1.left/0.26.1366.742@0.26.1366.742" timestamp="1578069448916" />
+    <state width="1224" height="284" key="GridCell.Tab.1.left/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897811" />
+    <state width="1224" height="284" key="GridCell.Tab.1.right" timestamp="1578301897812">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.2.bottom/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155483" />
-    <state width="1230" height="284" key="GridCell.Tab.2.center" timestamp="1577981155470">
+    <state width="1228" height="284" key="GridCell.Tab.1.right/0.26.1366.742@0.26.1366.742" timestamp="1578069448917" />
+    <state width="1224" height="284" key="GridCell.Tab.1.right/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897812" />
+    <state width="1224" height="284" key="GridCell.Tab.2.bottom" timestamp="1578301897814">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.2.center/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155470" />
-    <state width="1230" height="284" key="GridCell.Tab.2.left" timestamp="1577981155470">
+    <state width="1228" height="284" key="GridCell.Tab.2.bottom/0.26.1366.742@0.26.1366.742" timestamp="1578069448919" />
+    <state width="1224" height="284" key="GridCell.Tab.2.bottom/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897814" />
+    <state width="1224" height="284" key="GridCell.Tab.2.center" timestamp="1578301897813">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.2.left/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155470" />
-    <state width="1230" height="284" key="GridCell.Tab.2.right" timestamp="1577981155482">
+    <state width="1228" height="284" key="GridCell.Tab.2.center/0.26.1366.742@0.26.1366.742" timestamp="1578069448918" />
+    <state width="1224" height="284" key="GridCell.Tab.2.center/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897813" />
+    <state width="1224" height="284" key="GridCell.Tab.2.left" timestamp="1578301897813">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.2.right/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155482" />
-    <state width="1230" height="284" key="GridCell.Tab.3.bottom" timestamp="1577981155485">
+    <state width="1228" height="284" key="GridCell.Tab.2.left/0.26.1366.742@0.26.1366.742" timestamp="1578069448918" />
+    <state width="1224" height="284" key="GridCell.Tab.2.left/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897813" />
+    <state width="1224" height="284" key="GridCell.Tab.2.right" timestamp="1578301897814">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.3.bottom/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155485" />
-    <state width="1230" height="284" key="GridCell.Tab.3.center" timestamp="1577981155483">
+    <state width="1228" height="284" key="GridCell.Tab.2.right/0.26.1366.742@0.26.1366.742" timestamp="1578069448919" />
+    <state width="1224" height="284" key="GridCell.Tab.2.right/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897814" />
+    <state width="1224" height="284" key="GridCell.Tab.3.bottom" timestamp="1578301897815">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.3.center/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155483" />
-    <state width="1230" height="284" key="GridCell.Tab.3.left" timestamp="1577981155483">
+    <state width="1228" height="284" key="GridCell.Tab.3.bottom/0.26.1366.742@0.26.1366.742" timestamp="1578069448921" />
+    <state width="1224" height="284" key="GridCell.Tab.3.bottom/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897815" />
+    <state width="1224" height="284" key="GridCell.Tab.3.center" timestamp="1578301897815">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.3.left/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155483" />
-    <state width="1230" height="284" key="GridCell.Tab.3.right" timestamp="1577981155484">
+    <state width="1228" height="284" key="GridCell.Tab.3.center/0.26.1366.742@0.26.1366.742" timestamp="1578069448921" />
+    <state width="1224" height="284" key="GridCell.Tab.3.center/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897815" />
+    <state width="1224" height="284" key="GridCell.Tab.3.left" timestamp="1578301897814">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.3.right/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155484" />
-    <state width="1230" height="284" key="GridCell.Tab.4.bottom" timestamp="1577981155488">
+    <state width="1228" height="284" key="GridCell.Tab.3.left/0.26.1366.742@0.26.1366.742" timestamp="1578069448920" />
+    <state width="1224" height="284" key="GridCell.Tab.3.left/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897814" />
+    <state width="1224" height="284" key="GridCell.Tab.3.right" timestamp="1578301897815">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.4.bottom/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155488" />
-    <state width="1230" height="284" key="GridCell.Tab.4.center" timestamp="1577981155487">
+    <state width="1228" height="284" key="GridCell.Tab.3.right/0.26.1366.742@0.26.1366.742" timestamp="1578069448921" />
+    <state width="1224" height="284" key="GridCell.Tab.3.right/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897815" />
+    <state width="1224" height="284" key="GridCell.Tab.4.bottom" timestamp="1578301897817">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.4.center/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155487" />
-    <state width="1230" height="284" key="GridCell.Tab.4.left" timestamp="1577981155486">
+    <state width="1228" height="284" key="GridCell.Tab.4.bottom/0.26.1366.742@0.26.1366.742" timestamp="1578069448924" />
+    <state width="1224" height="284" key="GridCell.Tab.4.bottom/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897817" />
+    <state width="1224" height="284" key="GridCell.Tab.4.center" timestamp="1578301897816">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.4.left/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155486" />
-    <state width="1230" height="284" key="GridCell.Tab.4.right" timestamp="1577981155487">
+    <state width="1228" height="284" key="GridCell.Tab.4.center/0.26.1366.742@0.26.1366.742" timestamp="1578069448922" />
+    <state width="1224" height="284" key="GridCell.Tab.4.center/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897816" />
+    <state width="1224" height="284" key="GridCell.Tab.4.left" timestamp="1578301897816">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="1230" height="284" key="GridCell.Tab.4.right/0.30.2560.1050@0.30.2560.1050" timestamp="1577981155487" />
-    <state x="138" y="192" width="1007" height="733" key="SettingsEditor" timestamp="1577975752762">
+    <state width="1228" height="284" key="GridCell.Tab.4.left/0.26.1366.742@0.26.1366.742" timestamp="1578069448922" />
+    <state width="1224" height="284" key="GridCell.Tab.4.left/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897816" />
+    <state width="1224" height="284" key="GridCell.Tab.4.right" timestamp="1578301897817">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state x="138" y="192" width="1007" height="733" key="SettingsEditor/0.30.2560.1050@0.30.2560.1050" timestamp="1577975752762" />
-    <state width="642" height="527" key="XDebugger.FullValuePopup" timestamp="1577978714690">
+    <state width="1228" height="284" key="GridCell.Tab.4.right/0.26.1366.742@0.26.1366.742" timestamp="1578069448923" />
+    <state width="1224" height="284" key="GridCell.Tab.4.right/0.30.2560.1050@0.30.2560.1050" timestamp="1578301897817" />
+    <state x="367" y="288" width="808" height="533" key="Rider.ProjectTemplateDialog.Size" timestamp="1578300615208">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state width="642" height="527" key="XDebugger.FullValuePopup/0.30.2560.1050@0.30.2560.1050" timestamp="1577978714690" />
-    <state x="305" y="262" key="search.everywhere.popup" timestamp="1577978380873">
+    <state x="367" y="288" width="808" height="533" key="Rider.ProjectTemplateDialog.Size/0.30.2560.1050@0.30.2560.1050" timestamp="1578300615208" />
+    <state x="458" y="240" width="698" height="654" key="RiderGenerateDialog" timestamp="1578298686368">
       <screen x="0" y="30" width="2560" height="1050" />
     </state>
-    <state x="305" y="262" key="search.everywhere.popup/0.30.2560.1050@0.30.2560.1050" timestamp="1577978380873" />
+    <state x="458" y="240" width="698" height="654" key="RiderGenerateDialog/0.30.2560.1050@0.30.2560.1050" timestamp="1578298686368" />
+    <state x="138" y="192" width="1007" height="733" key="SettingsEditor" timestamp="1578049368833">
+      <screen x="0" y="30" width="2560" height="1050" />
+    </state>
+    <state x="138" y="192" width="1007" height="733" key="SettingsEditor/0.30.2560.1050@0.30.2560.1050" timestamp="1578049368833" />
+    <state x="238" y="291" key="Vcs.Push.Dialog.v2" timestamp="1577981657348">
+      <screen x="0" y="30" width="2560" height="1050" />
+    </state>
+    <state x="238" y="291" key="Vcs.Push.Dialog.v2/0.30.2560.1050@0.30.2560.1050" timestamp="1577981657348" />
+    <state width="642" height="527" key="XDebugger.FullValuePopup" timestamp="1578301371687">
+      <screen x="0" y="30" width="2560" height="1050" />
+    </state>
+    <state width="642" height="527" key="XDebugger.FullValuePopup/0.30.2560.1050@0.30.2560.1050" timestamp="1578301371687" />
+    <state x="280" y="153" width="741" height="807" key="find.popup" timestamp="1578061338876">
+      <screen x="0" y="30" width="2560" height="1050" />
+    </state>
+    <state x="280" y="153" width="741" height="807" key="find.popup/0.30.2560.1050@0.30.2560.1050" timestamp="1578061338876" />
+    <state x="305" y="262" width="672" height="678" key="search.everywhere.popup" timestamp="1578061311235">
+      <screen x="0" y="30" width="2560" height="1050" />
+    </state>
+    <state x="305" y="262" width="672" height="678" key="search.everywhere.popup/0.30.2560.1050@0.30.2560.1050" timestamp="1578061311235" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ServerApp.Infrastructure/Persistence/SessionFactoryBuilder.cs</url>
+          <line>25</line>
+          <properties documentPath="$PROJECT_DIR$/ServerApp.Infrastructure/Persistence/SessionFactoryBuilder.cs" initialLine="15">
+            <startOffsets>
+              <option value="971" />
+            </startOffsets>
+            <endOffsets>
+              <option value="988" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4FA45975-38D1-4E5C-9DF0-B7ECF52D95BC/f2/8d6d8c06/SessionFactoryImpl.cs</url>
+          <line>588</line>
+          <properties documentPath="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4FA45975-38D1-4E5C-9DF0-B7ECF52D95BC/f2/8d6d8c06/SessionFactoryImpl.cs" initialLine="588">
+            <startOffsets>
+              <option value="26939" />
+            </startOffsets>
+            <endOffsets>
+              <option value="26972" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ServerApp.Infrastructure/Persistence/NormalizedDateTimeUserType.cs</url>
+          <line>38</line>
+          <properties documentPath="$PROJECT_DIR$/ServerApp.Infrastructure/Persistence/NormalizedDateTimeUserType.cs" initialLine="37">
+            <startOffsets>
+              <option value="1166" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1202" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ServerApp.Infrastructure/Persistence/SessionFactoryBuilder.cs</url>
+          <line>54</line>
+          <properties documentPath="$PROJECT_DIR$/ServerApp.Infrastructure/Persistence/SessionFactoryBuilder.cs" initialLine="54">
+            <startOffsets>
+              <option value="2082" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2093" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C6365ABE-23F0-430D-8EFD-AFB7331F16D9/d8/e693a26a/SchemaExport.cs</url>
+          <line>643</line>
+          <properties documentPath="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C6365ABE-23F0-430D-8EFD-AFB7331F16D9/d8/e693a26a/SchemaExport.cs" initialLine="643">
+            <startOffsets>
+              <option value="28498" />
+            </startOffsets>
+            <endOffsets>
+              <option value="28609" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ServerApp.Infrastructure.Tests/Records/BaseRepositoryTests.cs</url>
+          <line>50</line>
+          <properties documentPath="$PROJECT_DIR$/ServerApp.Infrastructure.Tests/Records/BaseRepositoryTests.cs" initialLine="50">
+            <startOffsets>
+              <option value="1330" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1569" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0680C63-F115-40D0-B59B-D30F7313319C/29/f9b8896c/PersistenceSpecification`1.cs</url>
+          <line>47</line>
+          <properties documentPath="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B0680C63-F115-40D0-B59B-D30F7313319C/29/f9b8896c/PersistenceSpecification`1.cs" initialLine="47">
+            <startOffsets>
+              <option value="1678" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1766" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="LaunchSettings">
         <watch expression="$exception.InnerException.Message" />

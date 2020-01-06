@@ -1,15 +1,5 @@
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
-using FluentNHibernate;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using NHibernate;
-using NHibernate.Linq;
-using ServerApp.Api.Models;
-using ServerApp.Common;
 using ServerApp.Infrastructure.Records;
 
 namespace ServerApp.Api.Records

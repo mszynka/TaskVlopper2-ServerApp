@@ -3,6 +3,12 @@
   <component name="ContentModelStore">
     <e p="$USER_HOME$/.Rider2019.3/system/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_ServerApp.318760498.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.4.0/build/netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="ServerApp.Api" t="IncludeRecursive">
         <e p="Controllers" t="Include">
@@ -33,6 +39,20 @@
           </e>
         </e>
       </e>
+      <e p="ServerApp.Api.Tests" t="IncludeRecursive">
+        <e p="Records" t="Include">
+          <e p="TaskRepositoryTests.cs" t="Include" />
+        </e>
+        <e p="ServerApp.Api.Tests.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="ServerApp.Api.Tests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="ServerApp.Common" t="IncludeRecursive">
         <e p="IDependency.cs" t="Include" />
         <e p="ServerApp.Common.csproj" t="IncludeRecursive" />
@@ -47,6 +67,7 @@
       </e>
       <e p="ServerApp.Infrastructure" t="IncludeRecursive">
         <e p="Persistence" t="Include">
+          <e p="NormalizedDateTimeUserType.cs" t="Include" />
           <e p="SessionFactoryBuilder.cs" t="Include" />
         </e>
         <e p="Records" t="Include">
@@ -63,7 +84,22 @@
           </e>
         </e>
       </e>
+      <e p="ServerApp.Infrastructure.Tests" t="IncludeRecursive">
+        <e p="Records" t="Include">
+          <e p="BaseRepositoryTests.cs" t="Include" />
+        </e>
+        <e p="ServerApp.Infrastructure.Tests.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="ServerApp.Infrastructure.Tests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="ServerApp.sln" t="IncludeFlat" />
+      <e p="Tests" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>
